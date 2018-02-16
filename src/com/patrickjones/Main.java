@@ -4,7 +4,7 @@ public class Main {                         //class Main
 
     public static void main(String[] args) {        //main method
 
-        Car dodge = new Car();          //constructors
+        Car dodge = new Car();          //using constructors to build a new instance
         Car chevy = new Car();
         Car ford = new Car();
         Car toyota = new Car();
@@ -20,13 +20,16 @@ public class Main {                         //class Main
                 + " doors, and a " + dodge.getTransmission() + " transmission.");
         System.out.println("The car is a " + chevy.getColor()
                 + " " + chevy.getYear() + " Chevy " + chevy.getModel()
-                + " with a " + chevy.getEngine() + " engine and " + chevy.getDoors() + " doors.");
+                + " with a " + chevy.getEngine() + " engine and " + chevy.getDoors()
+                + " doors.");
         System.out.println("The car is a " + ford.getColor()
                 + " " + ford.getYear() + " Ford " + ford.getModel()
-                + " with a " + ford.getEngine() + " engine and " + ford.getDoors() + " doors.");
+                + " with a " + ford.getEngine() + " engine and " + ford.getDoors()
+                + " doors.");
         System.out.println("The car is a " + toyota.getColor()
                 + " " + toyota.getYear() + " Toyota " + toyota.getModel()
-                + " with a " + toyota.getEngine() + " engine and " + toyota.getDoors() + " doors.");
+                + " with a " + toyota.getEngine() + " engine and " + toyota.getDoors()
+                + " doors.");
 
 
     }
