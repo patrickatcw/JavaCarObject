@@ -9,7 +9,7 @@ public class Car {
     private String engine;
     private String color;
 
-    public void setModel(String model, String color) {
+    public void setModel(String model, String color, int year, String engine) {
        /* String validModel = model.toLowerCase();
         if(validModel.equals("charger") || validModel.equals("cobalt") ||validModel.equals("focus") ){
         }else{
@@ -17,6 +17,8 @@ public class Car {
         }*/
         this.model = model;
         this.color = color;
+        this.year = year;
+        this.engine = engine;
     }
 
     public String getModel() {
@@ -25,6 +27,14 @@ public class Car {
 
     public String getColor() {
         return this.color;
+    }
+
+    public int getYear() {
+        return this.year;
+    }
+
+    public String getEngine(){
+        return this.engine;
     }
 
 }

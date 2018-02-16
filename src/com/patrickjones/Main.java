@@ -8,13 +8,16 @@ public class Main {
         Car chevy = new Car();
         Car ford = new Car();
 
-        dodge.setModel("Charger", "red");
-        chevy.setModel("Cobalt", "blue");
-        ford.setModel("Focus", "white");
+        dodge.setModel("Charger", "red", 1968, "powerful");
+        chevy.setModel("Cobalt", "blue", 1998, "small");
+        ford.setModel("Focus", "white", 2012, "tiny");
 
-        System.out.println("Car model is a " + dodge.getColor() + " Dodge " + dodge.getModel());
-        System.out.println("Car model is a " + chevy.getColor() + " Chevy " + chevy.getModel());
-        System.out.println("Car model is a " + ford.getColor() + " Ford " + ford.getModel());
+        System.out.println("The car model is a " + dodge.getColor()
+                + " " + dodge.getYear() + " Dodge " + dodge.getModel() + " with a " + dodge.getEngine() + " engine. ");
+        System.out.println("The car model is a " + chevy.getColor()
+                + " " + chevy.getYear() + " Chevy " + chevy.getModel()+ " with a " + chevy.getEngine() + " engine. ");
+        System.out.println("The car model is a " + ford.getColor()
+                + " " + ford.getYear() + " Ford " + ford.getModel()+ " with a " + ford.getEngine() + " engine. ");
 
     }
 }
