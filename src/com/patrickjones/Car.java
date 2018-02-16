@@ -8,9 +8,9 @@ public class Car {              //class Car
     private String model;
     private String engine;
     private String color;
-    private String transmission;   //complete this, automatic or manual
+    private String transmission;
 
-    public void carInfo(String model, String color, int year, String engine, int doors) {      //carInfo method
+    public void carInfo(String model, String color, int year, String engine, int doors, String transmission) {      //carInfo method
        /* String validModel = model.toLowerCase();
         if(validModel.equals("charger") || validModel.equals("cobalt") ||validModel.equals("focus") ){
         }else{
@@ -21,6 +21,8 @@ public class Car {              //class Car
         this.year = year;
         this.engine = engine;
         this.doors = doors;
+        this.transmission = transmission;
+
     }
 
     public String getModel() {          //these are methods
@@ -41,6 +43,10 @@ public class Car {              //class Car
 
     public int getDoors() {
         return this.doors;
+    }
+
+    public String getTransmission(){
+        return this.transmission;
     }
 
 }
