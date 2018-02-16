@@ -1,6 +1,6 @@
 package com.patrickjones;
 
-public class Car {
+public class Car {              //class Car
 
     private int doors;              //fields
     private int wheels;
@@ -9,7 +9,7 @@ public class Car {
     private String engine;
     private String color;
 
-    public void carInfo(String model, String color, int year, String engine) {      //carInfo method
+    public void carInfo(String model, String color, int year, String engine, int doors) {      //carInfo method
        /* String validModel = model.toLowerCase();
         if(validModel.equals("charger") || validModel.equals("cobalt") ||validModel.equals("focus") ){
         }else{
@@ -19,6 +19,7 @@ public class Car {
         this.color = color;
         this.year = year;
         this.engine = engine;
+        this.doors = doors;
     }
 
     public String getModel() {
@@ -35,6 +36,10 @@ public class Car {
 
     public String getEngine(){
         return this.engine;
+    }
+
+    public int getDoors() {
+        return this.doors;
     }
 
 }
