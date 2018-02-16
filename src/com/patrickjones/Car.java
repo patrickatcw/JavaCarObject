@@ -22,7 +22,7 @@ public class Car {              //class Car
         this.doors = doors;
     }
 
-    public String getModel() {
+    public String getModel() {          //these are methods
         return this.model;
     }
 
