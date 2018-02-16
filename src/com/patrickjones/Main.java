@@ -31,4 +31,7 @@ public class Main {                         //class Main
     }
 }
 
+//object is an instance of a class
+//java class types; public, private, protected
+
 

@@ -8,6 +8,7 @@ public class Car {              //class Car
     private String model;
     private String engine;
     private String color;
+    private String transmission;   //complete this, automatic or manual
 
     public void carInfo(String model, String color, int year, String engine, int doors) {      //carInfo method
        /* String validModel = model.toLowerCase();
