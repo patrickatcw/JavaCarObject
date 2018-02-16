@@ -8,9 +8,9 @@ public class Main {
         Car chevy = new Car();
         Car ford = new Car();
 
-        dodge.setModel("Charger", "red", 1968, "powerful");
-        chevy.setModel("Cobalt", "blue", 1998, "small");
-        ford.setModel("Focus", "white", 2012, "tiny");
+        dodge.carInfo("Charger", "red", 1968, "powerful");
+        chevy.carInfo("Cobalt", "blue", 1998, "small");
+        ford.carInfo("Focus", "white", 2012, "tiny");
 
         System.out.println("The car model is a " + dodge.getColor()
                 + " " + dodge.getYear() + " Dodge " + dodge.getModel() + " with a " + dodge.getEngine() + " engine. ");
